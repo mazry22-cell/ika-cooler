@@ -7,23 +7,33 @@
 <meta name="description" content="Pautan IKA Sewa Air Cooler: tempah air cooler 135L di Kuala Langat, semak harga dan kawasan.">
 <meta name="theme-color" content="#0B2540">
 <meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://mazry22-cell.github.io/ika-cooler/">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<!-- og:image mesti URL penuh supaya preview keluar bila link dikongsi -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ms_MY">
+<meta property="og:url" content="https://mazry22-cell.github.io/ika-cooler/links.html">
 <meta property="og:title" content="IKA Sewa Air Cooler · Kuala Langat">
 <meta property="og:description" content="Air cooler 135L. RM150 sehari. Hantar, pasang, uji, ambil.">
-<meta property="og:image" content="img/og.jpg">
+<meta property="og:image" content="https://mazry22-cell.github.io/ika-cooler/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://mazry22-cell.github.io/ika-cooler/img/og.jpg">
 <style>
 :root{
-  --bg:#F4F7F9;--card:#FFF;--line:#DBE4EA;--ink:#0E2233;--muted:#4E6575;
-  --navy:#0B2540;--accent:#0A7A73;--accent-btn:#0A6E68;--on-dark-muted:#B9CDDB;--on-dark-accent:#5FD9CE;
+  --ink:#0E2233;
+  --navy:#0B2540;
+  --accent-btn:#0A6E68;--accent-btn-hover:#085C57;
+  --on-dark-muted:#B9CDDB;--on-dark-accent:#5FD9CE;
   --r-btn:12px;--r-card:16px;
+  --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s6:24px;--s8:32px;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{
-  margin:0;min-height:100vh;background:linear-gradient(168deg,var(--navy) 0%,#123A5C 100%);
+  margin:0;min-height:100vh;min-height:100dvh;background:linear-gradient(168deg,var(--navy) 0%,#123A5C 100%);background-attachment:fixed;
   color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size:16px;line-height:1.6;
   display:flex;flex-direction:column;align-items:center;justify-content:center;
@@ -32,40 +42,61 @@ body{
 .wrap{width:100%;max-width:400px}
 a{color:var(--on-dark-accent)}
 :focus-visible{outline:2px solid var(--on-dark-accent);outline-offset:3px}
+.ic{width:20px;height:20px;flex:0 0 auto;fill:currentColor}
 
-.brand{display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:28px}
-.brand img.mark{width:64px;height:64px;margin-bottom:14px}
-.brand h1{font-size:22px;line-height:1.25;margin:0 0 6px;font-weight:800;letter-spacing:-.2px}
+.brand{display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:var(--s6)}
+.brand img.mark{width:72px;height:72px;margin-bottom:var(--s3)}
+.brand h1{font-size:24px;line-height:1.25;margin:0 0 var(--s1);font-weight:800;letter-spacing:-.2px}
 .brand p{margin:0;color:var(--on-dark-muted);font-size:14px}
 
-.links{display:flex;flex-direction:column;gap:12px}
+/* harga terus di sini: itu soalan pertama orang tanya */
+.price{
+  display:grid;grid-template-columns:1fr 1fr;margin:0 0 var(--s4);
+  border:1px solid rgba(255,255,255,.24);border-radius:var(--r-card);
+  background:rgba(255,255,255,.05);overflow:hidden;
+}
+.price > div{padding:var(--s3) var(--s4)}
+.price > div + div{border-left:1px solid rgba(255,255,255,.18);background:rgba(95,217,206,.10)}
+.price dt{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--on-dark-muted);margin:0 0 2px}
+.price dd{margin:0;font-size:20px;font-weight:800;letter-spacing:-.3px;font-variant-numeric:tabular-nums}
+
+.links{display:flex;flex-direction:column;gap:var(--s3)}
 .btn{
   display:flex;align-items:center;justify-content:center;gap:10px;
   min-height:56px;padding:14px 18px;border-radius:var(--r-btn);
   font-size:16px;font-weight:700;text-decoration:none;text-align:center;
-  border:1px solid rgba(255,255,255,.28);color:#fff;
+  border:1px solid rgba(255,255,255,.32);color:#fff;
 }
-.btn svg{width:20px;height:20px;flex:0 0 auto;fill:currentColor}
 .btn.primary{background:var(--accent-btn);border-color:var(--accent-btn)}
-.btn.primary:hover{background:#085C57}
+.btn.primary:hover{background:var(--accent-btn-hover);border-color:var(--accent-btn-hover)}
 .btn.ghost:hover{background:rgba(255,255,255,.10)}
 
-.note{margin:24px 0 0;text-align:center;font-size:12px;color:var(--on-dark-muted);line-height:1.7}
-.note a{color:var(--on-dark-muted);text-decoration:underline}
+.note{margin:var(--s6) 0 0;text-align:center;font-size:12px;color:var(--on-dark-muted);line-height:1.7}
+.note a{color:var(--on-dark-muted);text-decoration:underline;display:inline-flex;align-items:center;min-height:44px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
-<div class="wrap">
+<!-- Nombor WhatsApp 601111201708 (1 tempat di sini). Lihat nota di index.html. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="wa" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.06c-.25.7-1.45 1.34-2 1.38-.55.05-1.06.24-3.57-.74-3.02-1.18-4.94-4.28-5.09-4.48-.15-.2-1.22-1.62-1.22-3.09 0-1.47.77-2.19 1.04-2.49.27-.3.59-.37.79-.37.2 0 .4 0 .57.01.18.01.43-.07.67.51.25.6.84 2.07.91 2.22.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.12.07.72-.18 1.42Z"/></symbol>
+</svg>
+<main class="wrap">
 
   <div class="brand">
-    <img class="mark" src="img/icon.png" alt="" width="64" height="64" decoding="async">
+    <img class="mark" src="img/icon.png" alt="" width="72" height="72" decoding="async">
     <h1>IKA Air Cooler</h1>
     <p>Sewa air cooler 135L · Kuala Langat</p>
   </div>
 
+  <dl class="price">
+    <div><dt>1 unit / hari</dt><dd>RM150</dd></div>
+    <div><dt>2 unit / hari</dt><dd>RM280</dd></div>
+  </dl>
+
   <div class="links">
     <a class="btn primary" href="https://wa.me/601111201708?text=Salam%20IKA%2C%20saya%20nak%20semak%20tarikh%20sewa%20air%20cooler.%0ATarikh%3A%20%0ALokasi%3A%20%0ABerapa%20unit%3A%20">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.06c-.25.7-1.45 1.34-2 1.38-.55.05-1.06.24-3.57-.74-3.02-1.18-4.94-4.28-5.09-4.48-.15-.2-1.22-1.62-1.22-3.09 0-1.47.77-2.19 1.04-2.49.27-.3.59-.37.79-.37.2 0 .4 0 .57.01.18.01.43-.07.67.51.25.6.84 2.07.91 2.22.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.12.07.72-.18 1.42Z"/></svg>
+      <svg class="ic" aria-hidden="true"><use href="#wa"/></svg>
       Tempah / tanya tarikh
     </a>
     <a class="btn ghost" href="index.html#harga">Harga &amp; pakej</a>
@@ -73,11 +104,10 @@ a{color:var(--on-dark-accent)}
   </div>
 
   <p class="note">
-    RM150 sehari · RM280 untuk 2 unit<br>
     Deposit 50% untuk lock tarikh<br>
     <a href="index.html">Lihat halaman penuh</a>
   </p>
 
-</div>
+</main>
 </body>
 </html>

@@ -17,8 +17,11 @@ Laman satu halaman untuk bio link. Statik sepenuhnya: tiada PHP, tiada database,
 
 ## Nombor WhatsApp
 
-`60111201708` — ada di **5 tempat** dalam `index.html` (1 JSON-LD `telephone` + 4 pautan `wa.me`) dan **1 tempat** dalam `links.html`.
-Kalau nombor bertukar: Ctrl+H / Cari & Ganti, ganti semua sekali gus.
+`60111201708` — ada di **6 tempat** dalam `index.html` (1 JSON-LD `telephone` + 5 pautan `wa.me`) dan **1 tempat** dalam `links.html`.
+Teks paparan `011-1120 1708` ada **1 tempat** dalam footer `index.html`.
+Kalau nombor bertukar: Ctrl+H / Cari & Ganti, ganti kedua-dua format.
+
+URL penuh `https://mazry22-cell.github.io/ika-cooler/` ada dalam `<head>` (canonical, `og:image`, `og:url`) dan JSON-LD. Kalau tukar nama repo atau domain, ganti di situ, kalau tidak preview WhatsApp/Facebook tak keluar.
 
 ## Cara letak di GitHub Pages (tanpa terminal)
 
